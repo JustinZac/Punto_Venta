@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|c:\\users\\admin\\source\\repos\\puntoventa\\puntoventa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|solutionrelative:puntoventa\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|c:\\users\\admin\\source\\repos\\puntoventa\\puntoventa\\productos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|solutionrelative:puntoventa\\productos.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|c:\\users\\admin\\source\\repos\\puntoventa\\puntoventa\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|solutionrelative:puntoventa\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|c:\\users\\admin\\source\\repos\\puntoventa\\puntoventa\\productos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|solutionrelative:puntoventa\\productos.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|c:\\users\\admin\\source\\repos\\puntoventa\\puntoventa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{30CCA16B-F03B-4D1E-98DE-3D8D57605856}|PUNTOVENTA\\PUNTOVENTA.csproj|solutionrelative:puntoventa\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "PUNTOVENTA\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\MainWindow.xaml",
+              "RelativeToolTip": "PUNTOVENTA\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-10T22:02:15.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Productos.xaml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\Productos.xaml",
+              "RelativeDocumentMoniker": "PUNTOVENTA\\Productos.xaml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\Productos.xaml",
+              "RelativeToolTip": "PUNTOVENTA\\Productos.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-13T01:17:50.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Productos.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\Productos.xaml.cs",
+              "RelativeDocumentMoniker": "PUNTOVENTA\\Productos.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\Productos.xaml.cs",
+              "RelativeToolTip": "PUNTOVENTA\\Productos.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowHgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T01:19:16.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "PUNTOVENTA\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\MainWindow.xaml.cs",
+              "RelativeToolTip": "PUNTOVENTA\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAALcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T22:02:12.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PUNTOVENTA\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\PUNTOVENTA\\PUNTOVENTA\\AppDbContext.cs",
+              "RelativeToolTip": "PUNTOVENTA\\AppDbContext.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T03:41:45.078Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+﻿<Window x:Class="PUNTOVENTA.Productos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PUNTOVENTA"
+        mc:Ignorable="d"
+        Title="Productos" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="MenuItem">
+            <Setter Property="Foreground" Value="Black" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Padding" Value="10,5" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Margin" Value="1" />
+            <Setter Property="Cursor" Value="Hand" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0">
+            <Menu DockPanel.Dock="Top" Background="#eeeeee" HorizontalAlignment="Stretch" BorderBrush="LightGray" BorderThickness="1">
+                <MenuItem Header="Clientes" Click="Click_cliente"/>
+                <MenuItem Header="Inventario" />
+                <MenuItem Header="Venta" />
+                <MenuItem Header="Producto" />
+                <MenuItem Header="Salir" Click="Click_salir"/>
+            </Menu>
+        </DockPanel>
+
+        <Grid Grid.Row="1" Margin="10">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*" />
+                <ColumnDefinition Width="1*" />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Content="Producto:" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" Margin="5"/>
+            <TextBox Name="txtNombre" Grid.Row="0" Grid.Column="0" Margin="80,5,5,5" />
+
+            <Label Content="Stock:" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+            <TextBox Name="txtStock" Grid.Row="0" Grid.Column="1" Margin="80,5,5,5" />
+
+            <Label Content="Descripcion:" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" Margin="5" FontSize="11"/>
+            <TextBox Name="txtDescripcion" Grid.Row="1" Grid.Column="0" Margin="80,5,5,5" />
+
+            <Label Content="Fecha Ingreso:" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Margin="5" FontSize="10"/>
+            <DatePicker x:Name="dpFecha" Grid.Row="1" Grid.Column="1" Margin="80,5,5,5" />
+
+            <Label Content="Precio:" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" Margin="5" FontSize="10"/>
+            <TextBox  Name="txtPrecio" Grid.Row="2" Grid.Column="0" Margin="80,5,5,5" />
+
+            <Label Content="Proveedor:" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="5"/>
+            <TextBox Name="txtProveedor" Grid.Row="2" Grid.Column="1" Margin="80,5,5,5" />
+
+            <Label Content="Tipo Producto:" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center" Margin="5" FontSize="10.5"/>
+            <ComboBox Name="comboBoxCatalogo" Grid.Row="3" Grid.Column="0" Margin="80,5,5,5" Grid.ColumnSpan="2" SelectionChanged="comboBoxCatalogo_SelectionChanged"></ComboBox>
+
+            <DataGrid Name="dataGridProducto" Grid.Row="4" Grid.ColumnSpan="2" ColumnWidth="*" TextBlock.TextAlignment="Center" 
+                      HorizontalGridLinesBrush="LightGray" VerticalGridLinesBrush="LightGray" SelectedCellsChanged="dataGridProducto_SelectedCellsChanged">
+                <DataGrid.Resources>
+                    <Style TargetType="DataGridColumnHeader">
+                        <Setter Property="HorizontalContentAlignment" Value="Center" />
+                    </Style>
+                </DataGrid.Resources>
+            </DataGrid>
+
+            <StackPanel Grid.Row="5" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+                <Button Content="Agregar" Width="100" Margin="5" Click="Agregar_Producto_Click" />
+                <Button Content="Actualizar" Width="100" Margin="5" Click="Actualizar_Producto_Click" />
+                <Button Content="Borrar" Width="100" Margin="5" Click="Borrar_Product_Click" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
